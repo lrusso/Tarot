@@ -758,7 +758,7 @@ Tarot.Game.prototype = {
 		var cardValue = this.cards[randomCard];
 
 		// REMOVING THE SELECTED CARD FROM THE AVAILABLE CARDS
-		this.cards = this.cards.filter(function(item){return item !== randomCard});
+		this.cards = this.cards.filter(function(item){return item !== cardValue});
 
 		// GETTING A RANDOM VALUE FOR INVERTING THE CARD
 		var isInvertedGenerator = Math.floor(Math.random() * 9);
