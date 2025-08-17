@@ -115,7 +115,7 @@ if (userLanguage.substring(0,2)=="es")
 
 	STRING_CARDS_TITLE[18] = "LA LUNA";
 	STRING_CARDS_MEANING_NORMAL[18] = "Inspiraci" + String.fromCharCode(243) + "n, imaginaci" + String.fromCharCode(243) + "n, intuici" + String.fromCharCode(243) + "n.\nNavegaci" + String.fromCharCode(243) + "n, cambio. Inconstancia, inseguridad,\nmiedo. Sue" + String.fromCharCode(241) + "os ut" + String.fromCharCode(243) + "picos, dificultad para aceptar\nla realidad. Confusi" + String.fromCharCode(243) + "n en los pensamientos.\nEstr" + String.fromCharCode(233) + "s y preocupaciones.";
-	STRING_CARDS_MEANING_INVERTED[18] = "Rechazo de la intuici" + String.fromCharCode(243) + "n, suposiciones\nfalsas. Estafas, enga" + String.fromCharCode(241) + "o, enga" + String.fromCharCode(241) + "o, desilusi" + String.fromCharCode(243) + "n.\nTeor" + String.fromCharCode(237) + "as equivocadas, conocimiento falso,\nclarividencia hist" + String.fromCharCode(233) + "rica. Amenaza, chantaje.\nViaje intempestivo, caprichos. Perturbado.";
+	STRING_CARDS_MEANING_INVERTED[18] = "Rechazo de la intuici" + String.fromCharCode(243) + "n, suposiciones\nfalsas. Estafas, enga" + String.fromCharCode(241) + "o, desilusi" + String.fromCharCode(243) + "n.\nTeor" + String.fromCharCode(237) + "as equivocadas, conocimiento falso,\nclarividencia hist" + String.fromCharCode(233) + "rica. Amenaza, chantaje.\nViaje intempestivo, caprichos. Perturbado.";
 
 	STRING_CARDS_TITLE[19] = "EL SOL";
 	STRING_CARDS_MEANING_NORMAL[19] = "Paz, amor, felicidad. Una vida bien\nvivida. Un trabajo bien hecho. Despertar.\nRenovaci" + String.fromCharCode(243) + "n. Alegr" + String.fromCharCode(237) + "a, prosperidad. Felicidad\nmarital. Fraternidad, inteligencia y buenos\nsentimientos.";
@@ -216,7 +216,7 @@ if (userLanguage.substring(0,2)=="es")
 
 	STRING_CARDS_TITLE[18] = "THE MOON";
 	STRING_CARDS_MEANING_NORMAL[18] = "Inspiration, imagination, intuition.\nNavigation, change. Inconstancy, insecurity,\nfear. Utopian dreams, difficulty accepting reality.\nConfusion of thoughts. Stress and worries.";
-	STRING_CARDS_MEANING_INVERTED[18] = "Rejection of intuition, false\nassumptions. Scams, deception, deceit, delusion.\nWrong theories, false knowledge, hysterical\nclairvoyance. Threat, blackmail. Untimely trip,\nwhims. Disturbed.";
+	STRING_CARDS_MEANING_INVERTED[18] = "Rejection of intuition, false\nassumptions. Scams, deception, delusion.\nWrong theories, false knowledge, hysterical\nclairvoyance. Threat, blackmail. Untimely trip,\nwhims. Disturbed.";
 
 	STRING_CARDS_TITLE[19] = "THE SUN";
 	STRING_CARDS_MEANING_NORMAL[19] = "Peace, love, happiness. A life well\nlived. A job well done. Awakening. Renewal. Joy,\nprosperity. Marital happiness. Fraternity,\nintelligence and good feelings.";
