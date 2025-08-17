@@ -111,7 +111,7 @@ if (userLanguage.substring(0,2)=="es")
 
 	STRING_CARDS_TITLE[17] = "LA ESTRELLA";
 	STRING_CARDS_MEANING_NORMAL[17] = "Inspiraci" + String.fromCharCode(243) + "n, visi" + String.fromCharCode(243) + "n, esperanza.\nIdealismo. Ayuda desinteresada. Dones\nespirituales. Gran amor dado o recibido. Visi" + String.fromCharCode(243) + "n\nintegral y autoconocimiento de uno mismo.\nAlcance de un deseo. Bondad, compasi" + String.fromCharCode(243) + "n.";
-	STRING_CARDS_MEANING_INVERTED[17] = "Pesimismo, dudas, impedimento.\nOdio, irritabilidad. Falta de percepci" + String.fromCharCode(243) + "n. Armon" + String.fromCharCode(237) + "a\ndesviada de su objetivo inicial, falta de atenci" + String.fromCharCode(243) + "n,\ndescuido y descuido. Desvergüenza, ligereza.\nFalta de espontaneidad.";
+	STRING_CARDS_MEANING_INVERTED[17] = "Pesimismo, dudas, impedimento.\nOdio, irritabilidad. Falta de percepci" + String.fromCharCode(243) + "n. Armon" + String.fromCharCode(237) + "a\ndesviada de su objetivo inicial, falta de atenci" + String.fromCharCode(243) + "n,\ndescuido. Desvergüenza, ligereza.\nFalta de espontaneidad.";
 
 	STRING_CARDS_TITLE[18] = "LA LUNA";
 	STRING_CARDS_MEANING_NORMAL[18] = "Inspiraci" + String.fromCharCode(243) + "n, imaginaci" + String.fromCharCode(243) + "n, intuici" + String.fromCharCode(243) + "n.\nNavegaci" + String.fromCharCode(243) + "n, cambio. Inconstancia, inseguridad,\nmiedo. Sue" + String.fromCharCode(241) + "os ut" + String.fromCharCode(243) + "picos, dificultad para aceptar\nla realidad. Confusi" + String.fromCharCode(243) + "n en los pensamientos.\nEstr" + String.fromCharCode(233) + "s y preocupaciones.";
@@ -212,7 +212,7 @@ if (userLanguage.substring(0,2)=="es")
 
 	STRING_CARDS_TITLE[17] = "THE STAR";
 	STRING_CARDS_MEANING_NORMAL[17] = "Inspiration, vision, hope.\nIdealism. Selfless help. Spiritual gifts. Great love\ngiven or received. Comprehensive vision and\nself-knowledge of oneself. Achievement of a\ndesire. Kindness, compassion.";
-	STRING_CARDS_MEANING_INVERTED[17] = "Pessimism, doubts, hindrance.\nHate, irritability. Lack of perception. Harmony\ndeviated from its initial goal, inattentiveness,\ncarelessness and carelessness. Shamelessness,\nflippancy. Lack of spontaneity.";
+	STRING_CARDS_MEANING_INVERTED[17] = "Pessimism, doubts, hindrance.\nHate, irritability. Lack of perception. Harmony\ndeviated from its initial goal, inattentiveness,\ncarelessness. Shamelessness,\nflippancy. Lack of spontaneity.";
 
 	STRING_CARDS_TITLE[18] = "THE MOON";
 	STRING_CARDS_MEANING_NORMAL[18] = "Inspiration, imagination, intuition.\nNavigation, change. Inconstancy, insecurity,\nfear. Utopian dreams, difficulty accepting reality.\nConfusion of thoughts. Stress and worries.";
