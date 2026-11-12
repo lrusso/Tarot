@@ -90,6 +90,17 @@
             ", tell me the meaning as if you were a tarot reader, be honest.",
           consoleLogReversed: "reversed",
           consoleLogUpright: "upright",
+          readingPPP: "{1} joins {2}, and together they lead you towards {3}.",
+          readingPPN:
+            "{1} and {2} are on your side, but do not let them blind you to {3}.",
+          readingPNP: "{1} gives you the strength to overcome {2} and reach {3}.",
+          readingPNN: "{1} is at risk, because {2} may drag you into {3}.",
+          readingNPP: "{1} will be left behind once {2} opens the way to {3}.",
+          readingNPN:
+            "{1} and {3} put you to the test, but {2} is the key to moving forward.",
+          readingNNP: "{1} and {2} are the trial you must go through to reach {3}.",
+          readingNNN:
+            "{1} and {2} warn you to change course before they lead you to {3}.",
           numeralAce: "Ace",
           numeralPage: "Page",
           numeralKnight: "Knight",
@@ -101,395 +112,551 @@
               name: "THE FOOL",
               upright: "New beginnings, freedom, adventure.",
               reversed: "Recklessness, naivety, carelessness.",
+              uprightReading: "a new beginning",
+              reversedReading: "recklessness",
             },
             {
               name: "THE MAGICIAN",
               upright: "Willpower, manifestation, skill.",
               reversed: "Manipulation, deceit, wasted talent.",
+              uprightReading: "your willpower",
+              reversedReading: "manipulation",
             },
             {
               name: "THE HIGH PRIESTESS",
               upright: "Intuition, mystery, inner wisdom.",
               reversed: "Repressed intuition, confusion.",
+              uprightReading: "your intuition",
+              reversedReading: "repressed intuition",
             },
             {
               name: "THE EMPRESS",
               upright: "Abundance, nature, fertility.",
               reversed: "Dependence, creative block, insecurity.",
+              uprightReading: "abundance",
+              reversedReading: "dependence",
             },
             {
               name: "THE EMPEROR",
               upright: "Authority, structure, stability.",
               reversed: "Tyranny, rigidity, lack of control.",
+              uprightReading: "stability",
+              reversedReading: "rigidity",
             },
             {
               name: "THE HIEROPHANT",
               upright: "Tradition, teaching, spirituality.",
               reversed: "Rebellion, non-conformity, freedom.",
+              uprightReading: "tradition",
+              reversedReading: "rebellion",
             },
             {
               name: "THE LOVERS",
               upright: "Love, union, choices of the heart.",
               reversed: "Imbalance, bad choice, disagreement.",
+              uprightReading: "love",
+              reversedReading: "a bad choice",
             },
             {
               name: "THE CHARIOT",
               upright: "Determination, victory, willpower.",
               reversed: "Lack of direction, defeat, aggression.",
+              uprightReading: "your determination",
+              reversedReading: "a lack of direction",
             },
             {
               name: "THE STRENGTH",
               upright: "Courage, patience, inner strength.",
               reversed: "Weakness, insecurity, lack of courage.",
+              uprightReading: "your inner strength",
+              reversedReading: "insecurity",
             },
             {
               name: "THE HERMIT",
               upright: "Inner search, solitude, guidance.",
               reversed: "Excessive isolation, loneliness, rejection.",
+              uprightReading: "an inner search",
+              reversedReading: "excessive isolation",
             },
             {
               name: "THE WHEEL OF FORTUNE",
               upright: "Destiny, cycles, inevitable change.",
               reversed: "Bad luck, resistance to change.",
+              uprightReading: "destiny",
+              reversedReading: "bad luck",
             },
             {
               name: "THE JUSTICE",
               upright: "Balance, truth, cause and effect.",
               reversed: "Injustice, dishonesty, imbalance.",
+              uprightReading: "the truth",
+              reversedReading: "injustice",
             },
             {
               name: "THE HANGED MAN",
               upright: "Sacrifice, new perspective, pause.",
               reversed: "Stalling, apathy, stagnation.",
+              uprightReading: "a new perspective",
+              reversedReading: "stalling",
             },
             {
               name: "THE DEATH",
               upright: "Transformation, end of a cycle, rebirth.",
               reversed: "Resistance to change, stagnation.",
+              uprightReading: "transformation",
+              reversedReading: "resistance to change",
             },
             {
               name: "THE TEMPERANCE",
               upright: "Balance, harmony, patience.",
               reversed: "Excess, impatience, imbalance.",
+              uprightReading: "harmony",
+              reversedReading: "excess",
             },
             {
               name: "THE DEVIL",
               upright: "Addiction, bondage, obsession.",
               reversed: "Liberation, breaking chains, independence.",
+              uprightReading: "an obsession",
+              reversedReading: "liberation",
             },
             {
               name: "THE TOWER",
               upright: "Sudden change, upheaval, chaos.",
               reversed: "Fear of change, avoiding the inevitable.",
+              uprightReading: "a sudden change",
+              reversedReading: "fear of change",
             },
             {
               name: "THE STAR",
               upright: "Hope, inspiration, serenity.",
               reversed: "Hopelessness, lack of faith, disconnection.",
+              uprightReading: "hope",
+              reversedReading: "hopelessness",
             },
             {
               name: "THE MOON",
               upright: "Illusion, intuition, the unconscious.",
-              reversed: "Confusion lifting, clarity, anxiety.",
+              reversed: "Release of fear, repressed emotion, inner confusion.",
+              uprightReading: "a deceptive illusion",
+              reversedReading: "repressed emotion",
             },
             {
               name: "THE SUN",
               upright: "Joy, success, vitality.",
               reversed: "Temporary sadness, pessimism, blockage.",
+              uprightReading: "joy",
+              reversedReading: "a temporary sadness",
             },
             {
               name: "THE JUDGEMENT",
               upright: "Rebirth, inner calling, redemption.",
               reversed: "Doubts, self-criticism, fear of change.",
+              uprightReading: "an inner calling",
+              reversedReading: "doubt",
             },
             {
               name: "THE WORLD",
               upright: "Completeness, achievement, fulfillment.",
               reversed: "Incompleteness, delays, lack of closure.",
+              uprightReading: "fulfillment",
+              reversedReading: "a lack of closure",
             },
             // minor arcana: cups
             {
               name: "ACE OF CUPS",
               upright: "New love, emotional fulfillment.",
               reversed: "Emotional void, blocked love.",
+              uprightReading: "a new love",
+              reversedReading: "an emotional void",
             },
             {
               name: "TWO OF CUPS",
               upright: "Union, partnership, mutual attraction.",
               reversed: "Breakup, imbalance in the relationship.",
+              uprightReading: "union",
+              reversedReading: "a breakup",
             },
             {
               name: "THREE OF CUPS",
               upright: "Celebration, friendship, community.",
               reversed: "Excess, gossip, social isolation.",
+              uprightReading: "friendship",
+              reversedReading: "social isolation",
             },
             {
               name: "FOUR OF CUPS",
               upright: "Contemplation, apathy, reevaluation.",
               reversed: "New motivation, accepting opportunities.",
+              uprightReading: "apathy",
+              reversedReading: "a new motivation",
             },
             {
               name: "FIVE OF CUPS",
               upright: "Loss, grief, regret.",
               reversed: "Acceptance, forgiveness, moving forward.",
+              uprightReading: "grief",
+              reversedReading: "forgiveness",
             },
             {
               name: "SIX OF CUPS",
               upright: "Nostalgia, memories, innocence.",
               reversed: "Living in the past, idealization.",
+              uprightReading: "innocence",
+              reversedReading: "idealization",
             },
             {
               name: "SEVEN OF CUPS",
               upright: "Fantasy, illusions, options.",
-              reversed: "Clarity, firm decision, realism.",
+              reversed: "Overwhelmed by choices, lack of purpose, confusion.",
+              uprightReading: "fantasy",
+              reversedReading: "a lack of purpose",
             },
             {
               name: "EIGHT OF CUPS",
               upright: "Abandonment, search, transition.",
               reversed: "Fear of letting go, stagnation.",
+              uprightReading: "abandonment",
+              reversedReading: "fear of letting go",
             },
             {
               name: "NINE OF CUPS",
               upright: "Wish fulfilled, satisfaction.",
               reversed: "Dissatisfaction, disappointment, arrogance.",
+              uprightReading: "a wish fulfilled",
+              reversedReading: "dissatisfaction",
             },
             {
               name: "TEN OF CUPS",
               upright: "Happiness, family harmony.",
               reversed: "Family conflicts, broken values.",
+              uprightReading: "family harmony",
+              reversedReading: "family conflict",
             },
             {
               name: "PAGE OF CUPS",
               upright: "Emotional message, creativity.",
               reversed: "Emotional immaturity, creative block.",
+              uprightReading: "creativity",
+              reversedReading: "emotional immaturity",
             },
             {
               name: "KNIGHT OF CUPS",
               upright: "Romance, charm, imagination.",
               reversed: "Moodiness, instability, disappointment.",
+              uprightReading: "romance",
+              reversedReading: "moodiness",
             },
             {
               name: "QUEEN OF CUPS",
               upright: "Compassion, intuition, care.",
               reversed: "Emotional insecurity, codependence.",
+              uprightReading: "compassion",
+              reversedReading: "codependence",
             },
             {
               name: "KING OF CUPS",
               upright: "Emotional control, generosity.",
               reversed: "Emotional coldness, repression.",
+              uprightReading: "emotional control",
+              reversedReading: "emotional coldness",
             },
             // minor arcana: pentacles
             {
               name: "ACE OF PENTACLES",
               upright: "New opportunity, prosperity.",
               reversed: "Missed opportunity, bad investment.",
+              uprightReading: "a new opportunity",
+              reversedReading: "a missed opportunity",
             },
             {
               name: "TWO OF PENTACLES",
               upright: "Balance, adaptability.",
               reversed: "Disorganization, financial imbalance.",
+              uprightReading: "adaptability",
+              reversedReading: "financial imbalance",
             },
             {
               name: "THREE OF PENTACLES",
               upright: "Teamwork, mastery.",
               reversed: "Lack of collaboration, mediocrity.",
+              uprightReading: "teamwork",
+              reversedReading: "mediocrity",
             },
             {
               name: "FOUR OF PENTACLES",
               upright: "Security, possession, control.",
               reversed: "Releasing control, generosity, overspending.",
+              uprightReading: "security",
+              reversedReading: "overspending",
             },
             {
               name: "FIVE OF PENTACLES",
               upright: "Difficulty, lack, isolation.",
               reversed: "Recovery, help found, improvement.",
+              uprightReading: "difficulty",
+              reversedReading: "recovery",
             },
             {
               name: "SIX OF PENTACLES",
               upright: "Generosity, charity, sharing.",
               reversed: "Debts, selfishness, conditional giving.",
+              uprightReading: "generosity",
+              reversedReading: "selfishness",
             },
             {
               name: "SEVEN OF PENTACLES",
               upright: "Patience, investment, perseverance.",
               reversed: "Impatience, bad investments, frustration.",
+              uprightReading: "patience",
+              reversedReading: "impatience",
             },
             {
               name: "EIGHT OF PENTACLES",
               upright: "Dedication, craftsmanship, learning.",
               reversed: "Perfectionism, lack of motivation.",
+              uprightReading: "dedication",
+              reversedReading: "perfectionism",
             },
             {
               name: "NINE OF PENTACLES",
               upright: "Luxury, self-sufficiency, achievement.",
-              reversed: "Financial dependence, losses.",
+              reversed: "Reckless spending, false success, overwork.",
+              uprightReading: "self-sufficiency",
+              reversedReading: "false success",
             },
             {
               name: "TEN OF PENTACLES",
               upright: "Wealth, inheritance, family legacy.",
               reversed: "Inheritance conflicts, instability.",
+              uprightReading: "a family legacy",
+              reversedReading: "an inheritance conflict",
             },
             {
               name: "PAGE OF PENTACLES",
               upright: "Study, ambition, new skills.",
               reversed: "Lack of focus, laziness, disinterest.",
+              uprightReading: "ambition",
+              reversedReading: "laziness",
             },
             {
               name: "KNIGHT OF PENTACLES",
               upright: "Responsibility, routine, efficiency.",
               reversed: "Stagnation, laziness, irresponsibility.",
+              uprightReading: "responsibility",
+              reversedReading: "stagnation",
             },
             {
               name: "QUEEN OF PENTACLES",
               upright: "Practicality, security, abundance.",
-              reversed: "Material insecurity, distrust.",
+              reversed: "Self-centeredness, jealousy, work-home conflict.",
+              uprightReading: "practicality",
+              reversedReading: "self-centeredness",
             },
             {
               name: "KING OF PENTACLES",
               upright: "Wealth, leadership, discipline.",
               reversed: "Corruption, excessive materialism.",
+              uprightReading: "discipline",
+              reversedReading: "excessive materialism",
             },
             // minor arcana: swords
             {
               name: "ACE OF SWORDS",
               upright: "Clarity, truth, mental breakthrough.",
               reversed: "Confusion, mental chaos, false ideas.",
+              uprightReading: "a mental breakthrough",
+              reversedReading: "mental chaos",
             },
             {
               name: "TWO OF SWORDS",
               upright: "Indecision, crossroads, blockage.",
               reversed: "Confusion, information overload.",
+              uprightReading: "indecision",
+              reversedReading: "confusion",
             },
             {
               name: "THREE OF SWORDS",
               upright: "Pain, betrayal, heartbreak.",
               reversed: "Recovery, forgiveness, overcoming.",
+              uprightReading: "betrayal",
+              reversedReading: "emotional recovery",
             },
             {
               name: "FOUR OF SWORDS",
               upright: "Rest, recovery, meditation.",
               reversed: "Restlessness, burnout, re-emergence.",
+              uprightReading: "rest",
+              reversedReading: "burnout",
             },
             {
               name: "FIVE OF SWORDS",
               upright: "Conflict, defeat, tension.",
               reversed: "Reconciliation, letting go of grudges.",
+              uprightReading: "conflict",
+              reversedReading: "reconciliation",
             },
             {
               name: "SIX OF SWORDS",
               upright: "Transition, progress, leaving behind.",
               reversed: "Resistance to moving forward, baggage.",
+              uprightReading: "progress",
+              reversedReading: "emotional baggage",
             },
             {
               name: "SEVEN OF SWORDS",
               upright: "Deception, strategy, cunning.",
               reversed: "Confession, truth exposed, honesty.",
+              uprightReading: "deception",
+              reversedReading: "honesty",
             },
             {
               name: "EIGHT OF SWORDS",
               upright: "Restriction, limitation, victim.",
               reversed: "Liberation, new perspective, empowerment.",
+              uprightReading: "limitation",
+              reversedReading: "empowerment",
             },
             {
               name: "NINE OF SWORDS",
               upright: "Anxiety, nightmares, worry.",
               reversed: "Hope, overcoming fears, recovery.",
+              uprightReading: "anxiety",
+              reversedReading: "victory over fear",
             },
             {
               name: "TEN OF SWORDS",
               upright: "Painful ending, betrayal, rock bottom.",
               reversed: "Resurgence, the worst is over.",
+              uprightReading: "a painful ending",
+              reversedReading: "resurgence",
             },
             {
               name: "PAGE OF SWORDS",
               upright: "Curiosity, vigilance, new ideas.",
-              reversed: "Gossip, cynicism, scattered thinking.",
+              reversed: "All talk and no action, haste, deception.",
+              uprightReading: "curiosity",
+              reversedReading: "haste",
             },
             {
               name: "KNIGHT OF SWORDS",
               upright: "Quick action, ambition, determination.",
               reversed: "Impulsiveness, aggression, no plan.",
+              uprightReading: "quick action",
+              reversedReading: "impulsiveness",
             },
             {
               name: "QUEEN OF SWORDS",
               upright: "Independence, perception, honesty.",
               reversed: "Cruelty, coldness, bitterness.",
+              uprightReading: "independence",
+              reversedReading: "bitterness",
             },
             {
               name: "KING OF SWORDS",
               upright: "Intellectual authority, truth, judgment.",
               reversed: "Abuse of power, tyranny, manipulation.",
+              uprightReading: "sound judgment",
+              reversedReading: "abuse of power",
             },
             // minor arcana: wands
             {
               name: "ACE OF WANDS",
               upright: "Inspiration, potential, new beginnings.",
               reversed: "Delays, lack of motivation, blockage.",
+              uprightReading: "inspiration",
+              reversedReading: "a lack of motivation",
             },
             {
               name: "TWO OF WANDS",
               upright: "Planning, decisions, progress.",
               reversed: "Fear of change, poor planning.",
+              uprightReading: "planning",
+              reversedReading: "poor planning",
             },
             {
               name: "THREE OF WANDS",
               upright: "Expansion, vision, leadership.",
               reversed: "Obstacles, lack of vision, delays.",
+              uprightReading: "vision",
+              reversedReading: "a lack of vision",
             },
             {
               name: "FOUR OF WANDS",
               upright: "Celebration, home, harmony.",
               reversed: "Instability, home conflicts.",
+              uprightReading: "harmony at home",
+              reversedReading: "instability at home",
             },
             {
               name: "FIVE OF WANDS",
               upright: "Competition, conflict, rivalry.",
               reversed: "Avoiding conflict, agreements, truce.",
+              uprightReading: "rivalry",
+              reversedReading: "a truce",
             },
             {
               name: "SIX OF WANDS",
               upright: "Victory, recognition, triumph.",
               reversed: "Failure, lack of recognition.",
+              uprightReading: "recognition",
+              reversedReading: "failure",
             },
             {
               name: "SEVEN OF WANDS",
               upright: "Defense, perseverance, resistance.",
               reversed: "Giving up, feeling overwhelmed.",
+              uprightReading: "perseverance",
+              reversedReading: "the urge to give up",
             },
             {
               name: "EIGHT OF WANDS",
               upright: "Speed, movement, quick action.",
               reversed: "Delays, frustration, slowness.",
+              uprightReading: "movement",
+              reversedReading: "slowness",
             },
             {
               name: "NINE OF WANDS",
               upright: "Resilience, courage, final test.",
               reversed: "Paranoia, exhaustion, surrender.",
+              uprightReading: "courage",
+              reversedReading: "paranoia",
             },
             {
               name: "TEN OF WANDS",
               upright: "Burden, responsibility, effort.",
               reversed: "Releasing burdens, delegating, relief.",
+              uprightReading: "a burden",
+              reversedReading: "relief",
             },
             {
               name: "PAGE OF WANDS",
               upright: "Enthusiasm, exploration, discovery.",
               reversed: "Lack of direction, impatience.",
+              uprightReading: "enthusiasm",
+              reversedReading: "aimlessness",
             },
             {
               name: "KNIGHT OF WANDS",
               upright: "Energy, adventure, impulsiveness.",
               reversed: "Frustration, lack of energy, delays.",
+              uprightReading: "energy",
+              reversedReading: "frustration",
             },
             {
               name: "QUEEN OF WANDS",
               upright: "Confidence, determination, warmth.",
               reversed: "Jealousy, insecurity, aggressiveness.",
+              uprightReading: "confidence",
+              reversedReading: "aggressiveness",
             },
             {
               name: "KING OF WANDS",
               upright: "Vision, leadership, entrepreneurship.",
               reversed: "Authoritarianism, impulsiveness, tyranny.",
+              uprightReading: "leadership",
+              reversedReading: "authoritarianism",
             },
           ],
         },
@@ -509,6 +676,19 @@
             ", dime el significado como si fueses un tarotista, s\xE9 honesto.",
           consoleLogReversed: "invertida",
           consoleLogUpright: "al derecho",
+          readingPPP: "{1} y {2} se unen para conducirte hacia {3}.",
+          readingPPN: "{1} y {2} te acompa\xF1an, pero no dejes que te oculten {3}.",
+          readingPNP: "{1} te da la fuerza para superar {2} y alcanzar {3}.",
+          readingPNN:
+            "{1} est\xE1 en riesgo, porque {2} puede arrastrarte hacia {3}.",
+          readingNPP:
+            "{1} quedar\xE1 atr\xE1s cuando {2} te abra el camino hacia {3}.",
+          readingNPN:
+            "{1} y {3} te ponen a prueba, pero {2} es la clave para salir adelante.",
+          readingNNP:
+            "{1} y {2} son la prueba que debes atravesar para alcanzar {3}.",
+          readingNNN:
+            "{1} y {2} te advierten que cambies de rumbo antes de que te lleven hacia {3}.",
           numeralAce: "As",
           numeralPage: "Sota",
           numeralKnight: "Caballero",
@@ -520,395 +700,553 @@
               name: "EL LOCO",
               upright: "Nuevos comienzos, libertad, aventura.",
               reversed: "Imprudencia, ingenuidad, descuido.",
+              uprightReading: "un nuevo comienzo",
+              reversedReading: "la imprudencia",
             },
             {
               name: "EL MAGO",
               upright: "Voluntad, manifestaci\xF3n, habilidad.",
               reversed: "Manipulaci\xF3n, enga\xF1o, talento desperdiciado.",
+              uprightReading: "tu fuerza de voluntad",
+              reversedReading: "la manipulaci\xF3n",
             },
             {
               name: "LA SACERDOTISA",
               upright: "Intuici\xF3n, misterio, sabidur\xEDa interior.",
               reversed: "Intuici\xF3n reprimida, confusi\xF3n.",
+              uprightReading: "tu intuici\xF3n",
+              reversedReading: "la intuici\xF3n reprimida",
             },
             {
               name: "LA EMPERATRIZ",
               upright: "Abundancia, naturaleza, fertilidad.",
               reversed: "Dependencia, bloqueo creativo, inseguridad.",
+              uprightReading: "la abundancia",
+              reversedReading: "la dependencia",
             },
             {
               name: "EL EMPERADOR",
               upright: "Autoridad, estructura, estabilidad.",
               reversed: "Tiran\xEDa, rigidez, falta de control.",
+              uprightReading: "la estabilidad",
+              reversedReading: "la rigidez",
             },
             {
               name: "EL HIEROFANTE",
               upright: "Tradici\xF3n, ense\xF1anza, espiritualidad.",
               reversed: "Rebeld\xEDa, inconformismo, libertad.",
+              uprightReading: "la tradici\xF3n",
+              reversedReading: "la rebeld\xEDa",
             },
             {
               name: "LOS ENAMORADOS",
               upright: "Amor, uni\xF3n, elecciones del coraz\xF3n.",
               reversed: "Desequilibrio, mala elecci\xF3n, desacuerdo.",
+              uprightReading: "el amor",
+              reversedReading: "una mala elecci\xF3n",
             },
             {
               name: "EL CARRO",
               upright: "Determinaci\xF3n, victoria, voluntad.",
               reversed: "Falta de direcci\xF3n, derrota, agresi\xF3n.",
+              uprightReading: "tu determinaci\xF3n",
+              reversedReading: "la falta de direcci\xF3n",
             },
             {
               name: "LA FUERZA",
               upright: "Coraje, paciencia, fortaleza interior.",
               reversed: "Debilidad, inseguridad, falta de coraje.",
+              uprightReading: "tu fortaleza interior",
+              reversedReading: "la inseguridad",
             },
             {
               name: "EL ERMITA\xD1O",
               upright: "B\xFAsqueda interior, soledad, gu\xEDa.",
               reversed: "Aislamiento excesivo, soledad, rechazo.",
+              uprightReading: "la b\xFAsqueda interior",
+              reversedReading: "el aislamiento excesivo",
             },
             {
               name: "LA RUEDA DE LA FORTUNA",
               upright: "Destino, ciclos, cambio inevitable.",
               reversed: "Mala suerte, resistencia al cambio.",
+              uprightReading: "el destino",
+              reversedReading: "la mala suerte",
             },
             {
               name: "LA JUSTICIA",
               upright: "Equilibrio, verdad, causa y efecto.",
               reversed: "Injusticia, deshonestidad, desequilibrio.",
+              uprightReading: "la verdad",
+              reversedReading: "la injusticia",
             },
             {
               name: "EL COLGADO",
               upright: "Sacrificio, nueva perspectiva, pausa.",
-              reversed: "Apat\xEDa, estancamiento, evasión.",
+              reversed: "Postergaci\xF3n, apat\xEDa, estancamiento.",
+              uprightReading: "una nueva perspectiva",
+              reversedReading: "la postergaci\xF3n",
             },
             {
               name: "LA MUERTE",
               upright: "Transformaci\xF3n, fin de un ciclo, renacimiento.",
               reversed: "Resistencia al cambio, estancamiento.",
+              uprightReading: "la transformaci\xF3n",
+              reversedReading: "la resistencia al cambio",
             },
             {
               name: "LA TEMPLANZA",
               upright: "Equilibrio, armon\xEDa, paciencia.",
               reversed: "Exceso, impaciencia, desequilibrio.",
+              uprightReading: "la armon\xEDa",
+              reversedReading: "el exceso",
             },
             {
               name: "EL DIABLO",
               upright: "Adicci\xF3n, ataduras, obsesi\xF3n.",
               reversed: "Liberaci\xF3n, ruptura de cadenas, independencia.",
+              uprightReading: "una obsesi\xF3n",
+              reversedReading: "la liberaci\xF3n",
             },
             {
               name: "LA TORRE",
               upright: "Cambio repentino, caos, destrucci\xF3n.",
               reversed: "Miedo al cambio, evitar lo inevitable.",
+              uprightReading: "un cambio repentino",
+              reversedReading: "el miedo al cambio",
             },
             {
               name: "LA ESTRELLA",
               upright: "Esperanza, inspiraci\xF3n, serenidad.",
               reversed: "Desesperanza, falta de fe, desconexi\xF3n.",
+              uprightReading: "la esperanza",
+              reversedReading: "la desesperanza",
             },
             {
               name: "LA LUNA",
               upright: "Ilusi\xF3n, intuici\xF3n, lo inconsciente.",
-              reversed: "Confusi\xF3n disip\xE1ndose, claridad, ansiedad.",
+              reversed:
+                "Liberaci\xF3n del miedo, emoci\xF3n reprimida, confusi\xF3n interior.",
+              uprightReading: "una ilusi\xF3n enga\xF1osa",
+              reversedReading: "la emoci\xF3n reprimida",
             },
             {
               name: "EL SOL",
               upright: "Alegr\xEDa, \xE9xito, vitalidad.",
               reversed: "Tristeza temporal, pesimismo, bloqueo.",
+              uprightReading: "la alegr\xEDa",
+              reversedReading: "una tristeza temporal",
             },
             {
               name: "EL JUICIO",
               upright: "Renacimiento, llamado interior, redenci\xF3n.",
               reversed: "Dudas, autocr\xEDtica, miedo al cambio.",
+              uprightReading: "un llamado interior",
+              reversedReading: "la duda",
             },
             {
               name: "EL MUNDO",
               upright: "Completitud, logro, plenitud.",
               reversed: "Incompletitud, retrasos, falta de cierre.",
+              uprightReading: "la plenitud",
+              reversedReading: "la falta de cierre",
             },
             // minor arcana: cups
             {
               name: "AS DE COPAS",
               upright: "Nuevo amor, plenitud emocional.",
               reversed: "Vac\xEDo emocional, amor bloqueado.",
+              uprightReading: "un nuevo amor",
+              reversedReading: "el vac\xEDo emocional",
             },
             {
               name: "DOS DE COPAS",
               upright: "Uni\xF3n, asociaci\xF3n, atracci\xF3n mutua.",
               reversed: "Ruptura, desequilibrio en la relaci\xF3n.",
+              uprightReading: "la uni\xF3n",
+              reversedReading: "una ruptura",
             },
             {
               name: "TRES DE COPAS",
               upright: "Celebraci\xF3n, amistad, comunidad.",
               reversed: "Excesos, chismes, aislamiento social.",
+              uprightReading: "la amistad",
+              reversedReading: "el aislamiento social",
             },
             {
               name: "CUATRO DE COPAS",
               upright: "Contemplaci\xF3n, apat\xEDa, reevaluaci\xF3n.",
               reversed: "Nueva motivaci\xF3n, aceptar oportunidades.",
+              uprightReading: "la apat\xEDa",
+              reversedReading: "una nueva motivaci\xF3n",
             },
             {
               name: "CINCO DE COPAS",
               upright: "P\xE9rdida, duelo, arrepentimiento.",
               reversed: "Aceptaci\xF3n, perd\xF3n, seguir adelante.",
+              uprightReading: "el duelo",
+              reversedReading: "el perd\xF3n",
             },
             {
               name: "SEIS DE COPAS",
               upright: "Nostalgia, recuerdos, inocencia.",
               reversed: "Vivir en el pasado, idealizaci\xF3n.",
+              uprightReading: "la inocencia",
+              reversedReading: "la idealizaci\xF3n",
             },
             {
               name: "SIETE DE COPAS",
               upright: "Fantas\xEDa, ilusiones, opciones.",
-              reversed: "Claridad, decisi\xF3n firme, realismo.",
+              reversed:
+                "Agobio ante las opciones, falta de prop\xF3sito, confusi\xF3n.",
+              uprightReading: "la fantas\xEDa",
+              reversedReading: "la falta de prop\xF3sito",
             },
             {
               name: "OCHO DE COPAS",
               upright: "Abandono, b\xFAsqueda, transici\xF3n.",
               reversed: "Miedo a soltar, estancamiento.",
+              uprightReading: "el abandono",
+              reversedReading: "el miedo a soltar",
             },
             {
               name: "NUEVE DE COPAS",
               upright: "Deseo cumplido, satisfacci\xF3n.",
               reversed: "Insatisfacci\xF3n, decepci\xF3n, arrogancia.",
+              uprightReading: "un deseo cumplido",
+              reversedReading: "la insatisfacci\xF3n",
             },
             {
               name: "DIEZ DE COPAS",
               upright: "Felicidad, armon\xEDa familiar.",
               reversed: "Conflictos familiares, valores rotos.",
+              uprightReading: "la armon\xEDa familiar",
+              reversedReading: "el conflicto familiar",
             },
             {
               name: "SOTA DE COPAS",
               upright: "Mensaje emocional, creatividad.",
               reversed: "Inmadurez emocional, bloqueo creativo.",
+              uprightReading: "la creatividad",
+              reversedReading: "la inmadurez emocional",
             },
             {
               name: "CABALLERO DE COPAS",
               upright: "Romance, encanto, imaginaci\xF3n.",
               reversed: "Inestabilidad emocional, decepci\xF3n.",
+              uprightReading: "el romance",
+              reversedReading: "la inestabilidad emocional",
             },
             {
               name: "REINA DE COPAS",
               upright: "Compasi\xF3n, intuici\xF3n, cuidado.",
               reversed: "Inseguridad emocional, codependencia.",
+              uprightReading: "la compasi\xF3n",
+              reversedReading: "la codependencia",
             },
             {
               name: "REY DE COPAS",
               upright: "Control emocional, generosidad.",
               reversed: "Frialdad emocional, represi\xF3n.",
+              uprightReading: "el control emocional",
+              reversedReading: "la frialdad emocional",
             },
             // minor arcana: pentacles
             {
               name: "AS DE OROS",
               upright: "Nueva oportunidad, prosperidad.",
               reversed: "Oportunidad perdida, mala inversi\xF3n.",
+              uprightReading: "una nueva oportunidad",
+              reversedReading: "una oportunidad perdida",
             },
             {
               name: "DOS DE OROS",
               upright: "Equilibrio, adaptabilidad.",
               reversed: "Desorganizaci\xF3n, desequilibrio financiero.",
+              uprightReading: "la adaptabilidad",
+              reversedReading: "el desequilibrio financiero",
             },
             {
               name: "TRES DE OROS",
               upright: "Trabajo en equipo, maestr\xEDa.",
               reversed: "Falta de colaboraci\xF3n, mediocridad.",
+              uprightReading: "el trabajo en equipo",
+              reversedReading: "la mediocridad",
             },
             {
               name: "CUATRO DE OROS",
               upright: "Seguridad, posesi\xF3n, control.",
               reversed: "Soltar el control, generosidad, derroche.",
+              uprightReading: "la seguridad",
+              reversedReading: "el derroche",
             },
             {
               name: "CINCO DE OROS",
               upright: "Dificultad, carencia, aislamiento.",
               reversed: "Recuperaci\xF3n, ayuda encontrada, mejor\xEDa.",
+              uprightReading: "la dificultad",
+              reversedReading: "la recuperaci\xF3n",
             },
             {
               name: "SEIS DE OROS",
               upright: "Generosidad, caridad, compartir.",
               reversed: "Deudas, ego\xEDsmo, dar con condiciones.",
+              uprightReading: "la generosidad",
+              reversedReading: "el ego\xEDsmo",
             },
             {
               name: "SIETE DE OROS",
               upright: "Paciencia, inversi\xF3n, perseverancia.",
               reversed: "Impaciencia, malas inversiones, frustraci\xF3n.",
+              uprightReading: "la paciencia",
+              reversedReading: "la impaciencia",
             },
             {
               name: "OCHO DE OROS",
               upright: "Dedicaci\xF3n, artesan\xEDa, aprendizaje.",
               reversed: "Perfeccionismo, falta de motivaci\xF3n.",
+              uprightReading: "la dedicaci\xF3n",
+              reversedReading: "el perfeccionismo",
             },
             {
               name: "NUEVE DE OROS",
               upright: "Lujo, autosuficiencia, logro.",
-              reversed: "Dependencia financiera, p\xE9rdidas.",
+              reversed: "Gasto imprudente, falso \xE9xito, exceso de trabajo.",
+              uprightReading: "la autosuficiencia",
+              reversedReading: "el falso \xE9xito",
             },
             {
               name: "DIEZ DE OROS",
               upright: "Riqueza, herencia, legado familiar.",
               reversed: "Conflictos por herencia, inestabilidad.",
+              uprightReading: "el legado familiar",
+              reversedReading: "el conflicto por herencia",
             },
             {
               name: "SOTA DE OROS",
               upright: "Estudio, ambici\xF3n, nuevas habilidades.",
               reversed: "Falta de enfoque, pereza, desinter\xE9s.",
+              uprightReading: "la ambici\xF3n",
+              reversedReading: "la pereza",
             },
             {
               name: "CABALLERO DE OROS",
               upright: "Responsabilidad, rutina, eficiencia.",
               reversed: "Estancamiento, pereza, irresponsabilidad.",
+              uprightReading: "la responsabilidad",
+              reversedReading: "el estancamiento",
             },
             {
               name: "REINA DE OROS",
               upright: "Practicidad, seguridad, abundancia.",
-              reversed: "Inseguridad material, desconfianza.",
+              reversed: "Egocentrismo, celos, conflicto trabajo-hogar.",
+              uprightReading: "la practicidad",
+              reversedReading: "el egocentrismo",
             },
             {
               name: "REY DE OROS",
               upright: "Riqueza, liderazgo, disciplina.",
               reversed: "Corrupci\xF3n, materialismo excesivo.",
+              uprightReading: "la disciplina",
+              reversedReading: "el materialismo excesivo",
             },
             // minor arcana: swords
             {
               name: "AS DE ESPADAS",
               upright: "Claridad, verdad, avance mental.",
               reversed: "Confusi\xF3n, caos mental, ideas falsas.",
+              uprightReading: "un avance mental",
+              reversedReading: "el caos mental",
             },
             {
               name: "DOS DE ESPADAS",
               upright: "Indecisi\xF3n, encrucijada, bloqueo.",
               reversed: "Confusi\xF3n, exceso de informaci\xF3n.",
+              uprightReading: "la indecisi\xF3n",
+              reversedReading: "la confusi\xF3n",
             },
             {
               name: "TRES DE ESPADAS",
               upright: "Dolor, traici\xF3n, ruptura.",
               reversed: "Recuperaci\xF3n, perd\xF3n, superaci\xF3n.",
+              uprightReading: "la traici\xF3n",
+              reversedReading: "la superaci\xF3n",
             },
             {
               name: "CUATRO DE ESPADAS",
               upright: "Descanso, recuperaci\xF3n, meditaci\xF3n.",
               reversed: "Inquietud, agotamiento, reemergencia.",
+              uprightReading: "el descanso",
+              reversedReading: "el agotamiento",
             },
             {
               name: "CINCO DE ESPADAS",
               upright: "Conflicto, derrota, tensi\xF3n.",
               reversed: "Reconciliaci\xF3n, soltar rencores.",
+              uprightReading: "el conflicto",
+              reversedReading: "la reconciliaci\xF3n",
             },
             {
               name: "SEIS DE ESPADAS",
               upright: "Transici\xF3n, avance, dejar atr\xE1s.",
               reversed: "Resistencia a avanzar, equipaje emocional.",
+              uprightReading: "el avance",
+              reversedReading: "el equipaje emocional",
             },
             {
               name: "SIETE DE ESPADAS",
               upright: "Enga\xF1o, estrategia, astucia.",
               reversed: "Confesi\xF3n, verdad expuesta, honestidad.",
+              uprightReading: "el enga\xF1o",
+              reversedReading: "la honestidad",
             },
             {
               name: "OCHO DE ESPADAS",
               upright: "Restricci\xF3n, limitaci\xF3n, v\xEDctima.",
               reversed: "Liberaci\xF3n, nueva perspectiva, empoderamiento.",
+              uprightReading: "la limitaci\xF3n",
+              reversedReading: "el empoderamiento",
             },
             {
               name: "NUEVE DE ESPADAS",
               upright: "Ansiedad, pesadillas, preocupaci\xF3n.",
               reversed: "Esperanza, superar miedos, recuperaci\xF3n.",
+              uprightReading: "la ansiedad",
+              reversedReading: "la superaci\xF3n del miedo",
             },
             {
               name: "DIEZ DE ESPADAS",
               upright: "Final doloroso, traici\xF3n, punto m\xE1s bajo.",
               reversed: "Resurgimiento, lo peor ya pas\xF3.",
+              uprightReading: "un final doloroso",
+              reversedReading: "el resurgimiento",
             },
             {
               name: "SOTA DE ESPADAS",
               upright: "Curiosidad, vigilancia, nuevas ideas.",
-              reversed: "Chismes, cinismo, pensamiento disperso.",
+              reversed: "Mucha palabra y poca acci\xF3n, prisa, enga\xF1o.",
+              uprightReading: "la curiosidad",
+              reversedReading: "la prisa",
             },
             {
               name: "CABALLERO DE ESPADAS",
               upright: "Acci\xF3n r\xE1pida, ambici\xF3n, determinaci\xF3n.",
               reversed: "Impulsividad, agresi\xF3n, sin plan.",
+              uprightReading: "la acci\xF3n r\xE1pida",
+              reversedReading: "la impulsividad",
             },
             {
               name: "REINA DE ESPADAS",
               upright: "Independencia, percepci\xF3n, honestidad.",
               reversed: "Crueldad, frialdad, amargura.",
+              uprightReading: "la independencia",
+              reversedReading: "la amargura",
             },
             {
               name: "REY DE ESPADAS",
               upright: "Autoridad intelectual, verdad, juicio.",
               reversed: "Abuso de poder, tiran\xEDa, manipulaci\xF3n.",
+              uprightReading: "el buen juicio",
+              reversedReading: "el abuso de poder",
             },
             // minor arcana: wands
             {
               name: "AS DE BASTOS",
               upright: "Inspiraci\xF3n, potencial, nuevos inicios.",
               reversed: "Retrasos, falta de motivaci\xF3n, bloqueo.",
+              uprightReading: "la inspiraci\xF3n",
+              reversedReading: "la falta de motivaci\xF3n",
             },
             {
               name: "DOS DE BASTOS",
               upright: "Planificaci\xF3n, decisiones, progreso.",
               reversed: "Miedo al cambio, mala planificaci\xF3n.",
+              uprightReading: "la planificaci\xF3n",
+              reversedReading: "la mala planificaci\xF3n",
             },
             {
               name: "TRES DE BASTOS",
               upright: "Expansi\xF3n, visi\xF3n, liderazgo.",
               reversed: "Obst\xE1culos, falta de visi\xF3n, retrasos.",
+              uprightReading: "la visi\xF3n",
+              reversedReading: "la falta de visi\xF3n",
             },
             {
               name: "CUATRO DE BASTOS",
               upright: "Celebraci\xF3n, hogar, armon\xEDa.",
               reversed: "Inestabilidad, conflictos en el hogar.",
+              uprightReading: "la armon\xEDa del hogar",
+              reversedReading: "la inestabilidad en el hogar",
             },
             {
               name: "CINCO DE BASTOS",
               upright: "Competencia, conflicto, rivalidad.",
               reversed: "Evitar conflictos, acuerdos, tregua.",
+              uprightReading: "la rivalidad",
+              reversedReading: "una tregua",
             },
             {
               name: "SEIS DE BASTOS",
               upright: "Victoria, reconocimiento, triunfo.",
               reversed: "Fracaso, falta de reconocimiento.",
+              uprightReading: "el reconocimiento",
+              reversedReading: "el fracaso",
             },
             {
               name: "SIETE DE BASTOS",
               upright: "Defensa, perseverancia, resistencia.",
               reversed: "Rendirse, sentirse abrumado.",
+              uprightReading: "la perseverancia",
+              reversedReading: "la tentaci\xF3n de rendirte",
             },
             {
               name: "OCHO DE BASTOS",
               upright: "Velocidad, movimiento, acci\xF3n r\xE1pida.",
               reversed: "Retrasos, frustraci\xF3n, lentitud.",
+              uprightReading: "el movimiento",
+              reversedReading: "la lentitud",
             },
             {
               name: "NUEVE DE BASTOS",
               upright: "Resistencia, coraje, \xFAltima prueba.",
               reversed: "Paranoia, agotamiento, rendici\xF3n.",
+              uprightReading: "el coraje",
+              reversedReading: "la paranoia",
             },
             {
               name: "DIEZ DE BASTOS",
               upright: "Carga, responsabilidad, esfuerzo.",
               reversed: "Soltar cargas, delegar, alivio.",
+              uprightReading: "una carga",
+              reversedReading: "el alivio",
             },
             {
               name: "SOTA DE BASTOS",
               upright: "Entusiasmo, exploraci\xF3n, descubrimiento.",
               reversed: "Falta de direcci\xF3n, impaciencia.",
+              uprightReading: "el entusiasmo",
+              reversedReading: "la falta de rumbo",
             },
             {
               name: "CABALLERO DE BASTOS",
               upright: "Energ\xEDa, aventura, impulsividad.",
               reversed: "Frustraci\xF3n, falta de energ\xEDa, retrasos.",
+              uprightReading: "la energ\xEDa",
+              reversedReading: "la frustraci\xF3n",
             },
             {
               name: "REINA DE BASTOS",
               upright: "Confianza, determinaci\xF3n, calidez.",
               reversed: "Celos, inseguridad, agresividad.",
+              uprightReading: "la confianza",
+              reversedReading: "la agresividad",
             },
             {
               name: "REY DE BASTOS",
               upright: "Visi\xF3n, liderazgo, emprendimiento.",
               reversed: "Autoritarismo, impulsividad, tiran\xEDa.",
+              uprightReading: "el liderazgo",
+              reversedReading: "el autoritarismo",
             },
           ],
         },
@@ -1009,6 +1347,17 @@
         { numeral: t("numeralKnight"), symbol: "\uD83D\uDC34", suit: "wands" },
         { numeral: t("numeralQueen"), symbol: "\uD83D\uDC78", suit: "wands" },
         { numeral: t("numeralKing"), symbol: "\uD83D\uDC68", suit: "wands" },
+      ]
+
+      // tone of each card (upright and reversed)
+      // prettier-ignore
+      var CARD_TONES = [
+        "+-", "+-", "+-", "+-", "+-", "++", "+-", "+-", "+-", "+-", "+-", "+-", "+-",
+        "+-", "+-", "-+", "--", "+-", "--", "+-", "+-", "+-", "+-", "+-", "+-", "-+",
+        "-+", "+-", "--", "--", "+-", "+-", "+-", "+-", "+-", "+-", "+-", "+-", "+-",
+        "+-", "-+", "+-", "+-", "+-", "+-", "+-", "+-", "+-", "+-", "+-", "+-", "--",
+        "-+", "+-", "-+", "+-", "-+", "-+", "-+", "-+", "+-", "+-", "+-", "+-", "+-",
+        "+-", "+-", "+-", "-+", "+-", "+-", "+-", "+-", "-+", "+-", "+-", "+-", "+-",
       ]
 
       var SUIT_COLORS = {
@@ -1561,6 +1910,8 @@
         this.selectedCard3Sprite = null
         this.selectedCard3BackgroundText = null
         this.selectedCard3Text = null
+        this.readingBackgroundText = null
+        this.readingText = null
         this.accent = null
         this.accentVisible = false
 
@@ -1610,6 +1961,8 @@
           this.selectedCard3Sprite = null
           this.selectedCard3BackgroundText = null
           this.selectedCard3Text = null
+          this.readingBackgroundText = null
+          this.readingText = null
           this.accent = null
           this.accentVisible = false
         },
@@ -1647,13 +2000,13 @@
           // adding the first card background text
           this.selectedCard1BackgroundText = game.add.graphics()
           this.selectedCard1BackgroundText.beginFill(0x000000, 0.75)
-          this.selectedCard1BackgroundText.drawRoundedRect(15, 354, 230, 126, 10)
+          this.selectedCard1BackgroundText.drawRoundedRect(15, 307, 230, 108, 10)
           this.selectedCard1BackgroundText.alpha = 0
 
           // adding the first card text
           this.selectedCard1Text = game.add.bitmapText(
             25,
-            364,
+            317,
             "ArialBlackShadow",
             "",
             16
@@ -1664,13 +2017,13 @@
           // adding the second card background text
           this.selectedCard2BackgroundText = game.add.graphics()
           this.selectedCard2BackgroundText.beginFill(0x000000, 0.75)
-          this.selectedCard2BackgroundText.drawRoundedRect(263, 354, 230, 126, 10)
+          this.selectedCard2BackgroundText.drawRoundedRect(263, 307, 230, 108, 10)
           this.selectedCard2BackgroundText.alpha = 0
 
           // adding the second card text
           this.selectedCard2Text = game.add.bitmapText(
             273,
-            364,
+            317,
             "ArialBlackShadow",
             "",
             16
@@ -1681,19 +2034,30 @@
           // adding the third card background text
           this.selectedCard3BackgroundText = game.add.graphics()
           this.selectedCard3BackgroundText.beginFill(0x000000, 0.75)
-          this.selectedCard3BackgroundText.drawRoundedRect(511, 354, 230, 126, 10)
+          this.selectedCard3BackgroundText.drawRoundedRect(511, 307, 230, 108, 10)
           this.selectedCard3BackgroundText.alpha = 0
 
           // adding the third card text
           this.selectedCard3Text = game.add.bitmapText(
             521,
-            364,
+            317,
             "ArialBlackShadow",
             "",
             16
           )
           this.selectedCard3Text.maxWidth = 0
           this.selectedCard3Text.alpha = 0
+
+          // adding the reading background text
+          this.readingBackgroundText = game.add.graphics()
+          this.readingBackgroundText.beginFill(0x000000, 0.75)
+          this.readingBackgroundText.drawRoundedRect(15, 424, 726, 56, 10)
+          this.readingBackgroundText.alpha = 0
+
+          // adding the reading text
+          this.readingText = game.add.bitmapText(25, 434, "ArialBlackShadow", "", 16)
+          this.readingText.maxWidth = 0
+          this.readingText.alpha = 0
 
           // adding the restart button
           this.buttonRestartShadow = game.add.sprite(707, 5, "imageRestart")
@@ -1904,7 +2268,7 @@
         },
 
         relocateCards: function relocateCards() {
-          var cardScale = 1.26
+          var cardScale = 1.09
 
           // relocating the first card
           this.add
@@ -1912,7 +2276,7 @@
             .to({ x: 130 }, 300, "Linear", true)
           this.add
             .tween(this.selectedCard1Sprite)
-            .to({ y: 177 }, 300, "Linear", true)
+            .to({ y: 155 }, 300, "Linear", true)
           this.add
             .tween(this.selectedCard1Sprite.scale)
             .to({ x: cardScale, y: cardScale }, 300, "Linear", true)
@@ -1923,7 +2287,7 @@
             .to({ x: 378 }, 300, "Linear", true)
           this.add
             .tween(this.selectedCard2Sprite)
-            .to({ y: 177 }, 300, "Linear", true)
+            .to({ y: 155 }, 300, "Linear", true)
           this.add
             .tween(this.selectedCard2Sprite.scale)
             .to({ x: cardScale, y: cardScale }, 300, "Linear", true)
@@ -1934,7 +2298,7 @@
             .to({ x: 626 }, 300, "Linear", true)
           this.add
             .tween(this.selectedCard3Sprite)
-            .to({ y: 177 }, 300, "Linear", true)
+            .to({ y: 155 }, 300, "Linear", true)
           this.add
             .tween(this.selectedCard3Sprite.scale)
             .to({ x: cardScale, y: cardScale }, 300, "Linear", true)
@@ -1946,6 +2310,28 @@
           game.time.events.add(500, function () {
             self.showMeanings()
           })
+        },
+
+        wrapText: function wrapText(textObj, fullText, maxLineWidth) {
+          var paragraphs = fullText.split("\n")
+          var wrappedLines = []
+          for (var pi = 0; pi < paragraphs.length; pi++) {
+            var words = paragraphs[pi].split(" ")
+            var line = ""
+            for (var wi = 0; wi < words.length; wi++) {
+              var testLine = line ? line + " " + words[wi] : words[wi]
+              textObj.fontSize = 16
+              textObj.setText(testLine)
+              if (textObj.width > maxLineWidth && line) {
+                wrappedLines.push(line)
+                line = words[wi]
+              } else {
+                line = testLine
+              }
+            }
+            wrappedLines.push(line)
+          }
+          textObj.setText(wrappedLines.join("\n"))
         },
 
         showMeanings: function showMeanings() {
@@ -1967,9 +2353,11 @@
             },
           ]
 
-          var boxHeight = 126
+          var boxHeight = 108
           var textPadding = 10
           var maxTextHeight = boxHeight - textPadding * 2
+          var readingTones = []
+          var readingParts = []
 
           for (var mi = 0; mi < cardsData.length; mi++) {
             var cd = cardsData[mi]
@@ -1977,27 +2365,17 @@
             var meaning = cd.reversed ? cardInfo.reversed : cardInfo.upright
 
             // manually wrap text to avoid phaser word wrapping issues
-            var maxLineWidth = 210
-            var fullText = cardInfo.name + ":\n\n" + meaning
-            var paragraphs = fullText.split("\n")
-            var wrappedLines = []
-            for (var pi = 0; pi < paragraphs.length; pi++) {
-              var words = paragraphs[pi].split(" ")
-              var line = ""
-              for (var wi = 0; wi < words.length; wi++) {
-                var testLine = line ? line + " " + words[wi] : words[wi]
-                cd.textObj.fontSize = 16
-                cd.textObj.setText(testLine)
-                if (cd.textObj.width > maxLineWidth && line) {
-                  wrappedLines.push(line)
-                  line = words[wi]
-                } else {
-                  line = testLine
-                }
-              }
-              wrappedLines.push(line)
-            }
-            cd.textObj.setText(wrappedLines.join("\n"))
+            this.wrapText(cd.textObj, cardInfo.name + ":\n\n" + meaning, 210)
+
+            // storing the tone and the phrase of the card for the reading
+            readingTones.push(
+              CARD_TONES[cd.cardValue].charAt(cd.reversed ? 1 : 0) === "+"
+                ? "P"
+                : "N"
+            )
+            readingParts.push(
+              cd.reversed ? cardInfo.reversedReading : cardInfo.uprightReading
+            )
 
             // fix for the spanish language (missing accent)
             if (cardInfo.name === "EL ERMITA\xD1O") {
@@ -2013,6 +2391,27 @@
             } else {
               cd.textObj.scale.set(1)
             }
+          }
+
+          // showing a single sentence that gives meaning to the three cards
+          var reading = t("reading" + readingTones.join(""))
+            .split("{1}")
+            .join(readingParts[0])
+            .split("{2}")
+            .join(readingParts[1])
+            .split("{3}")
+            .join(readingParts[2])
+          this.wrapText(
+            this.readingText,
+            reading.charAt(0).toUpperCase() + reading.substring(1),
+            706
+          )
+
+          // scale down the reading vertically if it overflows its background box
+          if (this.readingText.height > 36) {
+            this.readingText.scale.set(1, 36 / this.readingText.height)
+          } else {
+            this.readingText.scale.set(1)
           }
 
           var rev = t("consoleLogReversed")
@@ -2051,6 +2450,10 @@
           this.add
             .tween(this.selectedCard3Text)
             .to({ alpha: 1 }, 300, "Linear", true)
+          this.add
+            .tween(this.readingBackgroundText)
+            .to({ alpha: 1 }, 300, "Linear", true)
+          this.add.tween(this.readingText).to({ alpha: 1 }, 300, "Linear", true)
           if (this.accentVisible) {
             this.add.tween(this.accent).to({ alpha: 1 }, 300, "Linear", true)
           }
